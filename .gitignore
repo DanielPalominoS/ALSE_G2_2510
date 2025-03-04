@@ -1,0 +1,79 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# Generated files
+*.gch
+*.pch
+
+# CMake build directory
+/build/
+CMakeFiles/
+CMakeCache.txt
+CMakeLists.txt.user
+cmake_install.cmake
+Makefile
+*/build
+
+# Code::Blocks workspace files
+*.workspace
+*.layout
+
+# Qt Creator files
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# Visual Studio Code files
+.vscode/
+
+# JetBrains IDEs files
+.idea/
+
+# Other IDEs and editors
+*.swp
+*~
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
+
+# Temporary files
+*.temp
+*.tmp
+*.temp~
+*.tmp~
+
+# Specific files
+
+Parcial1/test.cpp
+Parcial1/parcial_sol_alt.cpp
+
+# Ignore directories
+bin/
+obj/
