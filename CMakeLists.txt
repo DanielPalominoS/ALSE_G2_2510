@@ -6,4 +6,5 @@ project(ALSE_G2_2510)
 # Add subdirectories
 add_subdirectory(Ejemplo2)
 add_subdirectory(Ejemplo3)
-add_subdirectory(Parcial1)
+add_subdirectory(Ejemplo4)
+#add_subdirectory(Parcial1)
