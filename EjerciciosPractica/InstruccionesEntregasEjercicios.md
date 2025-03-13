@@ -26,7 +26,7 @@ Se debe entregar un archivo PDF en el que se consignen los siguientes elementos.
 Se deben consignar imagenes de algunos ejemplos de ejecución, pueden ser ejecutados en consola o con los testCases que se presentan en la platafora de LeetCode.  
 En caso de que la solución se envie en LeetCode y sea aceptada adjuntar captura de pantalla donde se logre ver el usuario.
 - **Conclusiones y retos**: Se debe consignar la conclusión de la solución propuesta y los principales retos que se presentaron para abordarlo.
-- **Formato de entrega**: No es necesario entregar el documento bajo un formato especifico como IEE, APA, etc, siempre y cuando la inofrmación se presente de manera ordenada y sea de facil seguimiento.
+- **Formato de entrega**: No es necesario entregar el documento bajo un formato especifico como IEEE, APA, etc, siempre y cuando la inofrmación se presente de manera ordenada y sea de facil seguimiento.
 
 ### Canal de entrega.
 
