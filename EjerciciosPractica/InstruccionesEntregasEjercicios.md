@@ -22,7 +22,9 @@ Se debe entregar un archivo PDF en el que se consignen los siguientes elementos.
 - **Metodología**: Describir la metodología propuesta para la resolución del problema.
 - **Solución del problema**: Se debe consignar la solución del problema propuesto, explicando el detalle de las secciones de codigo o recursos más importantes a tener en cuenta.
 - **Código de la solución**: Se debe consignar el enlace al repositorio donde se aloje la solución. El cual debe estar debidamente comentado.
-- **Ejemplos de ejecución**: Se deben consignar imagenes de algunos ejemplos de ejecución.
+- **Ejemplos de ejecución**:  
+Se deben consignar imagenes de algunos ejemplos de ejecución, pueden ser ejecutados en consola o con los testCases que se presentan en la platafora de LeetCode.  
+En caso de que la solución se envie en LeetCode y sea aceptada adjuntar captura de pantalla donde se logre ver el usuario.
 - **Conclusiones y retos**: Se debe consignar la conclusión de la solución propuesta y los principales retos que se presentaron para abordarlo.
 - **Formato de entrega**: No es necesario entregar el documento bajo un formato especifico como IEE, APA, etc, siempre y cuando la inofrmación se presente de manera ordenada y sea de facil seguimiento.
 
@@ -38,10 +40,19 @@ Donde {NombreEjercicioLeetCode} hace referencia al nombre como aparece en la lis
 ![alt text](image.png)
 ---
 ## Recursos adicionales.
-### Ejemplo de codigo para trabajar en local una solución de LeetCode
+### Ejemplo de archivos para trabajar en local una solución de LeetCode
 
-LeetCode en su linea gratuita no permite guardar cammbios de código en la interfaz, por lo tanto se sugiere trabajar en local para ir probando la solución y poder guardar los cambios que se vayan generando. A continuación se deja el enlace a una carpeta ejemplo de un problema de leetcode trabajado en local.
-- [Duck Duck Go](https://duckduckgo.com)
+LeetCode en su linea gratuita no permite guardar cammbios de código en la interfaz, por lo tanto se sugiere trabajar en local para ir probando la solución y poder guardar los cambios que se vayan generando.  
+A continuación se deja el enlace a una carpeta ejemplo de un problema de leetcode trabajado en local.
+- [Ejemplo carpeta local de trabajo Problema LeetCode](https://github.com/DanielPalominoS/ALSE_G2_2510/tree/main/EjerciciosPractica/SampleLeetCodeProject/LongestSubstring)
+
+Se debe crear la carpeta build, crear los archivos cmake y compilar el proyecto cada vez que se tengan cambios que se quieran probar.
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 
 
 
