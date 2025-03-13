@@ -20,7 +20,7 @@ double subtract(double a, double b)
 
 double divide(double a, double b)
 {
-    return a - b;
+    return a / b;
 }
 
 // Function that performs an operation using a callback
@@ -115,7 +115,6 @@ int main(int argc, char *argv[])
             break;
     }
     performOperation(cbFunction, op1, op2);
-
     
     return 0;
 }
