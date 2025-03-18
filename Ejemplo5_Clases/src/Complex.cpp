@@ -93,3 +93,6 @@ int operator!= (const Complex& a, const Complex& b) {
 //     co.flags(fl);
 //     return co;
 // }
+void Complex::display() {
+    cout << real << " + " << imag << "i" << endl;
+}

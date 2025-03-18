@@ -4,6 +4,8 @@
 #define __COMPLEJO_H__
 
 #include <iostream>
+#include <string>
+#include <cmath>
 using namespace std;
 class Complex {
 private:
@@ -11,6 +13,7 @@ private:
     double imag;
 
 public:
+    string nombre;
     // Constructores
     Complex(void);
     Complex(double, double im = 0.0);
@@ -40,6 +43,8 @@ public:
 
     // Sobrecarga del operador de inserción en el flujo de salida
     friend ostream& operator<< (ostream&, const Complex&);
+    //addttional functions
+    void display();
 };
 
 #endif
