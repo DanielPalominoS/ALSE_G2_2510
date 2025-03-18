@@ -6,6 +6,7 @@
 class AirVehicle : public Vehicle {
 private:
     int altitude;  // Altitude in meters
+    bool isMultirotor;   // Type of air vehicle
 
 public:
     // Constructor

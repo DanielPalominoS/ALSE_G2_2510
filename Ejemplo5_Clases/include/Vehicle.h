@@ -12,9 +12,10 @@ protected:
 public:
     // Constructor
     Vehicle(string b, int s);
+    Vehicle(string b);
 
     // Virtual Destructor (important for polymorphism)
-    virtual ~Vehicle();
+    //virtual ~Vehicle();
 
     // Getter & Setter
     int getSpeed() const;

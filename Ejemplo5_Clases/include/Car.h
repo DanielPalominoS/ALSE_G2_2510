@@ -11,6 +11,13 @@ private:
 public:
     // Constructor
     Car(string b, int s, int doors, int wheels = 4);
+    // Destructor
+    ~Car();
+    // Getter & Setter
+    int getNumDoors() const;
+    void setNumDoors(int doors);
+    int getNumWheels() const;
+    void setNumWheels(int wheels);
 
     // Override display method
     void display() const override;

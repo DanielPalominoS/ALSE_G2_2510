@@ -78,3 +78,4 @@ Parcial1/parcial_sol_alt.cpp
 # Ignore directories
 bin/
 obj/
+.vscode/settings.json

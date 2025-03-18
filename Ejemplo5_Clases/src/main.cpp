@@ -7,6 +7,8 @@
 int main() {
     // Complex class examples
     Complex c1(3, 4), c2(1, 2);
+    c1.real=5;
+    c1.SetReal(5);
     c1.display();
     c2.display();
     Complex sum = c1 + c2;
@@ -23,7 +25,8 @@ int main() {
     // std::cout << "Phase of c2: " << c2.phase() << std::endl;
     std::cout << "c1 == c2: " << (c1 == c2) << std::endl;
     std::cout << "c1 != c2: " << (c1 != c2) << std::endl;
-    std::cout << "c1 < c2: " << (c1 < c2) << std::endl;
+    //std::cout << "c1 < c2: " << (c1 < c2) << std::endl;
+    std::cout << "c1: " << c1 << std::endl;
 
     // Cube class examples
     Cube cube1(3.0);
@@ -52,14 +55,22 @@ int main() {
     vehicle1.setSpeed(130);
     vehicle1.display();
 
-    // Car class examples (assuming Car is derived from Vehicle)
-    Car car1("Honda", 150, 4);
-    car1.display();
+    // // Car class examples (assuming Car is derived from Vehicle)
+    Car car1("Honda", 150, 4, 4);
+    Car *pCar=&car1;    
     car1.setSpeed(160);
+    car1.getSpeed();
     car1.display();
+    pCar->setSpeed(170);
+    pCar->getSpeed();
+    pCar->display();
+    car1.display();
+    // 
+    // car1.display();
 
     // AirVehicle class examples (assuming AirVehicle is derived from Vehicle)
     AirVehicle airVehicle1("Boeing", 900, 30000);
+    AirVehicle *pAirVehicle=&airVehicle1;
     airVehicle1.display();
     airVehicle1.setSpeed(950);
     airVehicle1.display();

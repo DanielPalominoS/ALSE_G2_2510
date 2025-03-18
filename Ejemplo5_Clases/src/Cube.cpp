@@ -23,5 +23,8 @@ double Cube::getVolume() const {
 
 // Calculate Surface Area: A = 6 * l²
 double Cube::getSurfaceArea() const {
+    Complex c1(3, 4), c2(1, 2);
+    c1.real=5;
+    c1.SetReal(5);
     return 6 * length * length;
 }

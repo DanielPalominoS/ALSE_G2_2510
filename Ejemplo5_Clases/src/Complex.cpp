@@ -43,6 +43,13 @@ Complex Complex::operator+ (const Complex &a) {
     return suma;
 }
 
+Complex Complex::operator+ () {
+    Complex suma;
+    this->real = real + 1;
+    this->imag = imag + 1;
+    return suma;
+}
+
 // Operador miembro - sobrecargado
 Complex Complex::operator- (const Complex &a) {
     Complex resta;
@@ -86,13 +93,16 @@ int operator!= (const Complex& a, const Complex& b) {
 }
 
 // Operador friend << sobrecargado
-// ostream& operator<< (ostream& co, const Complex &a) {
-//     co << a.real;
-//     long fl = co.setf(ios::showpos);
-//     co << a.imag << "i";
-//     co.flags(fl);
-//     return co;
-// }
+// Operador friend << sobrecargado
+ostream& operator<< (ostream& co, const Complex &a) {
+    co << a.real;
+    if (a.imag >= 0) {
+        co << "+" << a.imag << "i";
+    } else {
+        co << a.imag << "i";
+    }
+    return co;
+}
 void Complex::display() {
     cout << real << " + " << imag << "i" << endl;
 }

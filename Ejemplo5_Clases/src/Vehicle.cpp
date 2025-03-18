@@ -2,9 +2,9 @@
 
 Vehicle::Vehicle(string b, int s) : brand(b), speed(s) {}
 
-Vehicle::~Vehicle() {
-    cout << "Destroying Vehicle: " << brand << endl;
-}
+// Vehicle::~Vehicle() {
+//     cout << "Destroying Vehicle: " << brand << endl;
+// }
 
 int Vehicle::getSpeed() const {
     return speed;

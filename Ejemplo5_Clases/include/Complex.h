@@ -18,6 +18,9 @@ public:
     Complex(void);
     Complex(double, double im = 0.0);
     Complex(const Complex&);
+    float add(double a, double b);
+    int add(int a, int b);
+
 
     // SetThings
     void SetData(void);
@@ -30,6 +33,7 @@ public:
 
     // Sobrecarga de operadores aritméticos
     Complex operator+ (const Complex&);
+    Complex operator+ ();
     Complex operator- (const Complex&);
     Complex operator* (const Complex&);
     Complex operator/ (const Complex&);
@@ -45,6 +49,7 @@ public:
     friend ostream& operator<< (ostream&, const Complex&);
     //addttional functions
     void display();
+
 };
 
 #endif
