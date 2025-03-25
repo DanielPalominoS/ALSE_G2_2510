@@ -1,0 +1,18 @@
+\begin{theindex}
+
+  \item {getSpeed}
+    \subitem {Vehicle}, \hyperpage{4}
+
+  \indexspace
+
+  \item {setSpeed}
+    \subitem {Vehicle}, \hyperpage{4}
+
+  \indexspace
+
+  \item {Vehicle}, \hyperpage{3}
+    \subitem {getSpeed}, \hyperpage{4}
+    \subitem {setSpeed}, \hyperpage{4}
+    \subitem {Vehicle}, \hyperpage{3, 4}
+
+\end{theindex}

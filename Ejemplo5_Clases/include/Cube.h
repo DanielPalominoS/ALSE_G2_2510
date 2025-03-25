@@ -9,7 +9,7 @@ private:
 public:
     string colour;
     // Constructor
-    Cube(double l = 1.0); 
+    Cube(double l = 1.0);
 
     // Getter and Setter
     double getLength() const;
