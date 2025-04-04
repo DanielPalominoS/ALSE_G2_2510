@@ -1,0 +1,4 @@
+<map id="Car" name="Car">
+<area shape="rect" id="node1" title="Represents a car, derived from the Vehicle class." alt="" coords="18,80,62,107"/>
+<area shape="rect" id="node2" href="$classVehicle.html" title="Represents a generic vehicle with basic attributes and methods." alt="" coords="5,5,75,32"/>
+</map>

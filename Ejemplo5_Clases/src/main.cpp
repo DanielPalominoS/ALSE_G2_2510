@@ -7,7 +7,7 @@
 int main() {
     // Complex class examples
     Complex c1(3, 4), c2(1, 2);
-    c1.real=5;
+    //c1.real=5;
     c1.SetReal(5);
     c1.display();
     c2.display();
@@ -55,7 +55,7 @@ int main() {
     vehicle1.setSpeed(130);
     vehicle1.display();
 
-    // // Car class examples (assuming Car is derived from Vehicle)
+    // Car class examples (assuming Car is derived from Vehicle)
     Car car1("Honda", 150, 4, 4);
     Car *pCar=&car1;    
     car1.setSpeed(160);
@@ -65,8 +65,8 @@ int main() {
     pCar->getSpeed();
     pCar->display();
     car1.display();
-    // 
-    // car1.display();
+    
+    car1.display();
 
     // AirVehicle class examples (assuming AirVehicle is derived from Vehicle)
     AirVehicle airVehicle1("Boeing", 900, 30000);

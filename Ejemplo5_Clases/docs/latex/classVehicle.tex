@@ -1,0 +1,165 @@
+\hypertarget{classVehicle}{}\doxysection{Vehicle Class Reference}
+\label{classVehicle}\index{Vehicle@{Vehicle}}
+
+
+Represents a generic vehicle with basic attributes and methods.  
+
+
+
+
+{\ttfamily \#include $<$Vehicle.\+h$>$}
+
+
+
+Inheritance diagram for Vehicle\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=196pt]{classVehicle__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classVehicle_a4d0f33eebbb49e893c0ffa8965463c11}{Vehicle}} (string b, int s)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classVehicle}{Vehicle}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVehicle_a2526c4cc04fb1de4e09237e406af9330}{Vehicle}} (string b)
+\begin{DoxyCompactList}\small\item\em Constructor for the \mbox{\hyperlink{classVehicle}{Vehicle}} class with only the brand. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classVehicle_a61ab140c755b8e0e824d54117cf4546f}{$\sim$\+Vehicle}} ()
+\begin{DoxyCompactList}\small\item\em Virtual destructor for the \mbox{\hyperlink{classVehicle}{Vehicle}} class. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classVehicle_a51361d79c81ea35b6befbc70e225ada3}{get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Gets the speed of the vehicle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classVehicle_ae7ca202ea0acbe4fe8b26bc6be338af8}{set\+Speed}} (int s)
+\begin{DoxyCompactList}\small\item\em Sets the speed of the vehicle. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classVehicle_a961a67ff045f2b7578329590538e6dd9}{display}} () const
+\begin{DoxyCompactList}\small\item\em Displays the details of the vehicle. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classVehicle_a64ce936b4a102f38f34abb809caa5f09}{brand}}
+\begin{DoxyCompactList}\small\item\em Brand of the vehicle. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classVehicle_ace01102c5df95f408e0f14f4e3c29ee3}\label{classVehicle_ace01102c5df95f408e0f14f4e3c29ee3}} 
+int \mbox{\hyperlink{classVehicle_ace01102c5df95f408e0f14f4e3c29ee3}{speed}}
+\begin{DoxyCompactList}\small\item\em Speed of the vehicle in km/h. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a generic vehicle with basic attributes and methods. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classVehicle_a4d0f33eebbb49e893c0ffa8965463c11}\label{classVehicle_a4d0f33eebbb49e893c0ffa8965463c11}} 
+\index{Vehicle@{Vehicle}!Vehicle@{Vehicle}}
+\index{Vehicle@{Vehicle}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{Vehicle()}{Vehicle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Vehicle\+::\+Vehicle (\begin{DoxyParamCaption}\item[{string}]{b,  }\item[{int}]{s }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classVehicle}{Vehicle}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Brand of the vehicle. \\
+\hline
+{\em s} & Speed of the vehicle in km/h. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classVehicle_a2526c4cc04fb1de4e09237e406af9330}\label{classVehicle_a2526c4cc04fb1de4e09237e406af9330}} 
+\index{Vehicle@{Vehicle}!Vehicle@{Vehicle}}
+\index{Vehicle@{Vehicle}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{Vehicle()}{Vehicle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Vehicle\+::\+Vehicle (\begin{DoxyParamCaption}\item[{string}]{b }\end{DoxyParamCaption})}
+
+
+
+Constructor for the \mbox{\hyperlink{classVehicle}{Vehicle}} class with only the brand. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em b} & Brand of the vehicle. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classVehicle_a61ab140c755b8e0e824d54117cf4546f}\label{classVehicle_a61ab140c755b8e0e824d54117cf4546f}} 
+\index{Vehicle@{Vehicle}!````~Vehicle@{$\sim$Vehicle}}
+\index{````~Vehicle@{$\sim$Vehicle}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{$\sim$Vehicle()}{~Vehicle()}}
+{\footnotesize\ttfamily Vehicle\+::$\sim$\+Vehicle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Virtual destructor for the \mbox{\hyperlink{classVehicle}{Vehicle}} class. 
+
+\begin{DoxyNote}{Note}
+This is important for proper cleanup in polymorphic use cases. 
+\end{DoxyNote}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classVehicle_a961a67ff045f2b7578329590538e6dd9}\label{classVehicle_a961a67ff045f2b7578329590538e6dd9}} 
+\index{Vehicle@{Vehicle}!display@{display}}
+\index{display@{display}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{display()}{display()}}
+{\footnotesize\ttfamily void Vehicle\+::display (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Displays the details of the vehicle. 
+
+\begin{DoxyNote}{Note}
+This is a virtual method and can be overridden by derived classes. 
+\end{DoxyNote}
+
+
+Reimplemented in \mbox{\hyperlink{classCar_a321f0905ccf1ca8c3353a1f8836a05cc}{Car}}, and \mbox{\hyperlink{classAirVehicle_ab286233e0fdc7e2a1a9f18cd887c0e01}{Air\+Vehicle}}.
+
+\mbox{\Hypertarget{classVehicle_a51361d79c81ea35b6befbc70e225ada3}\label{classVehicle_a51361d79c81ea35b6befbc70e225ada3}} 
+\index{Vehicle@{Vehicle}!getSpeed@{getSpeed}}
+\index{getSpeed@{getSpeed}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{getSpeed()}{getSpeed()}}
+{\footnotesize\ttfamily int Vehicle\+::get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the speed of the vehicle. 
+
+\begin{DoxyReturn}{Returns}
+Speed of the vehicle in km/h. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classVehicle_ae7ca202ea0acbe4fe8b26bc6be338af8}\label{classVehicle_ae7ca202ea0acbe4fe8b26bc6be338af8}} 
+\index{Vehicle@{Vehicle}!setSpeed@{setSpeed}}
+\index{setSpeed@{setSpeed}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{setSpeed()}{setSpeed()}}
+{\footnotesize\ttfamily void Vehicle\+::set\+Speed (\begin{DoxyParamCaption}\item[{int}]{s }\end{DoxyParamCaption})}
+
+
+
+Sets the speed of the vehicle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & Speed to set in km/h. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classVehicle_a64ce936b4a102f38f34abb809caa5f09}\label{classVehicle_a64ce936b4a102f38f34abb809caa5f09}} 
+\index{Vehicle@{Vehicle}!brand@{brand}}
+\index{brand@{brand}!Vehicle@{Vehicle}}
+\doxysubsubsection{\texorpdfstring{brand}{brand}}
+{\footnotesize\ttfamily string Vehicle\+::brand\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Brand of the vehicle. 
+
+\begin{DoxyNote}{Note}
+This attribute is protected, so it is accessible by derived classes. 
+\end{DoxyNote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Vehicle.\+h\item 
+src/Vehicle.\+cpp\end{DoxyCompactItemize}

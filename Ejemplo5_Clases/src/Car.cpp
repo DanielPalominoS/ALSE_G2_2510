@@ -18,6 +18,8 @@ Car::~Car() {
      numWheels = wheels;
  }
 void Car::display() const {
-    cout << "Car Brand: " << brand << ", Speed: " << speed 
-         << " km/h, Doors: " << numDoors << "Num Wheels"<< numDoors << endl;
+    cout << "Car Brand: " << brand 
+         << ", Speed: " << speed << " km/h"
+         << ", Doors: " << numDoors
+         << ", Wheels: " << numWheels << endl;
 }

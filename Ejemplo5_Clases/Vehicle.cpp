@@ -13,12 +13,29 @@ public:
     Vehicle(string b, int s) : brand(b), speed(s) {}
     Vehicle(string b): brand(b){
         speed=0;
-    }
+    }    
     Vehicle(int  s){
         speed=s;
         brand="Generic";
     }
-
+    // Destructor
+    virtual ~Vehicle() {
+        // Destructor logic (if any)
+        cout << "Vehicle object with brand " << brand << " is being destroyed." << endl;
+    }
+    // Getter for speed
+    int getSpeed() const {
+        return speed;
+    }
+    // Setter for speed
+    void setSpeed(int s) {
+        if (s < 0) {
+            cout << "Speed cannot be negative. Setting to 0." << endl;
+            speed = 0; // Ensure speed is non-negative
+        } else {
+            speed = s;
+        }
+    }
     // Public method
     void display() {
         cout << "Brand: " << brand << ", Speed: " << speed << " km/h" << endl;

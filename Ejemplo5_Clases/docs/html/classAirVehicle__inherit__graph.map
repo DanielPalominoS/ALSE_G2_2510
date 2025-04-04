@@ -1,0 +1,4 @@
+<map id="AirVehicle" name="AirVehicle">
+<area shape="rect" id="node1" title="Represents an air vehicle, derived from the Vehicle class." alt="" coords="5,80,92,107"/>
+<area shape="rect" id="node2" href="$classVehicle.html" title="Represents a generic vehicle with basic attributes and methods." alt="" coords="14,5,83,32"/>
+</map>

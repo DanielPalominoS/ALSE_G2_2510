@@ -1,0 +1,375 @@
+\hypertarget{classComplex}{}\doxysection{Complex Class Reference}
+\label{classComplex}\index{Complex@{Complex}}
+
+
+Represents a complex number and provides operations for complex arithmetic.  
+
+
+
+
+{\ttfamily \#include $<$Complex.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classComplex_a1874a063c318321d97276d539362b39d}\label{classComplex_a1874a063c318321d97276d539362b39d}} 
+\mbox{\hyperlink{classComplex_a1874a063c318321d97276d539362b39d}{Complex}} (void)
+\begin{DoxyCompactList}\small\item\em Default constructor for the \mbox{\hyperlink{classComplex}{Complex}} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex_a94d080367358925bdf747e973960701b}{Complex}} (double re, double im=0.\+0)
+\begin{DoxyCompactList}\small\item\em Constructor with real and imaginary parts. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex_a466cd7b664cc6a864937ceb3dead1323}{Complex}} (const \mbox{\hyperlink{classComplex}{Complex}} \&other)
+\begin{DoxyCompactList}\small\item\em Copy constructor for the \mbox{\hyperlink{classComplex}{Complex}} class. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classComplex_a1e6de4ccbe08a7ebaa83029240ac4846}{add}} (double a, double b)
+\begin{DoxyCompactList}\small\item\em Adds two double values. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classComplex_a2301b74b34aa4a61398b4b23056489ef}{add}} (int a, int b)
+\begin{DoxyCompactList}\small\item\em Adds two integer values. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classComplex_a21da660df66fe6d3ab04e51438d8dc0b}\label{classComplex_a21da660df66fe6d3ab04e51438d8dc0b}} 
+void \mbox{\hyperlink{classComplex_a21da660df66fe6d3ab04e51438d8dc0b}{Set\+Data}} (void)
+\begin{DoxyCompactList}\small\item\em Sets the data for the complex number. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classComplex_a22f33af69b8d3d5085df5876edbc1a60}{Set\+Real}} (double re)
+\begin{DoxyCompactList}\small\item\em Sets the real part of the complex number. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classComplex_a66f357d5690a2176d6d9af0522fbd062}{Set\+Imag}} (double im)
+\begin{DoxyCompactList}\small\item\em Sets the imaginary part of the complex number. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classComplex_aa70ccdfcc41127542db840e454b9310e}{Get\+Real}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the real part of the complex number. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classComplex_a8e79bf20ecb69577920f2ce30dac8eda}{Get\+Imag}} (void)
+\begin{DoxyCompactList}\small\item\em Gets the imaginary part of the complex number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex}{Complex}} \mbox{\hyperlink{classComplex_a820afcbb330df716577459d7a3aa3a1c}{operator+}} (const \mbox{\hyperlink{classComplex}{Complex}} \&other)
+\begin{DoxyCompactList}\small\item\em Overloads the addition operator for complex numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex}{Complex}} \mbox{\hyperlink{classComplex_a8656b8064c11c0b52226254d4debda07}{operator+}} ()
+\begin{DoxyCompactList}\small\item\em Unary plus operator overload. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex}{Complex}} \mbox{\hyperlink{classComplex_a36739619a07b5478bcd8a28ad2f8b7da}{operator-\/}} (const \mbox{\hyperlink{classComplex}{Complex}} \&other)
+\begin{DoxyCompactList}\small\item\em Overloads the subtraction operator for complex numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex}{Complex}} \mbox{\hyperlink{classComplex_aa9b4a7d6083ca7040ddd4fe93db5c19d}{operator$\ast$}} (const \mbox{\hyperlink{classComplex}{Complex}} \&other)
+\begin{DoxyCompactList}\small\item\em Overloads the multiplication operator for complex numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex}{Complex}} \mbox{\hyperlink{classComplex_ac38437c10eb798f176c384a695171b90}{operator/}} (const \mbox{\hyperlink{classComplex}{Complex}} \&other)
+\begin{DoxyCompactList}\small\item\em Overloads the division operator for complex numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classComplex}{Complex}} \& \mbox{\hyperlink{classComplex_a3c57cf8e8be7a9314a20cb3d770f71cf}{operator=}} (const \mbox{\hyperlink{classComplex}{Complex}} \&other)
+\begin{DoxyCompactList}\small\item\em Overloads the assignment operator for complex numbers. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classComplex_aaa4e9497d6859fd7f05dfeb00f35c1a9}\label{classComplex_aaa4e9497d6859fd7f05dfeb00f35c1a9}} 
+void \mbox{\hyperlink{classComplex_aaa4e9497d6859fd7f05dfeb00f35c1a9}{display}} ()
+\begin{DoxyCompactList}\small\item\em Displays the details of the complex number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classComplex_ac5d0673c2551a8935bbcfdf8aa65fd5d}\label{classComplex_ac5d0673c2551a8935bbcfdf8aa65fd5d}} 
+string \mbox{\hyperlink{classComplex_ac5d0673c2551a8935bbcfdf8aa65fd5d}{nombre}}
+\begin{DoxyCompactList}\small\item\em Name associated with the complex number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classComplex_a134348d6add271f1764fa17f5334056b}{operator==}} (const \mbox{\hyperlink{classComplex}{Complex}} \&lhs, const \mbox{\hyperlink{classComplex}{Complex}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Overloads the equality operator for complex numbers. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classComplex_a26a80299285b0a09474fe6a7263d648e}{operator!=}} (const \mbox{\hyperlink{classComplex}{Complex}} \&lhs, const \mbox{\hyperlink{classComplex}{Complex}} \&rhs)
+\begin{DoxyCompactList}\small\item\em Overloads the inequality operator for complex numbers. \end{DoxyCompactList}\item 
+ostream \& \mbox{\hyperlink{classComplex_a940798a40478e522f3b6bc46860792c7}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{classComplex}{Complex}} \&c)
+\begin{DoxyCompactList}\small\item\em Overloads the insertion operator for output streams. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a complex number and provides operations for complex arithmetic. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classComplex_a94d080367358925bdf747e973960701b}\label{classComplex_a94d080367358925bdf747e973960701b}} 
+\index{Complex@{Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Complex()}{Complex()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Complex\+::\+Complex (\begin{DoxyParamCaption}\item[{double}]{re,  }\item[{double}]{im = {\ttfamily 0.0} }\end{DoxyParamCaption})}
+
+
+
+Constructor with real and imaginary parts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em re} & Real part of the complex number. \\
+\hline
+{\em im} & Imaginary part of the complex number (default is 0.\+0). \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classComplex_a466cd7b664cc6a864937ceb3dead1323}\label{classComplex_a466cd7b664cc6a864937ceb3dead1323}} 
+\index{Complex@{Complex}!Complex@{Complex}}
+\index{Complex@{Complex}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{Complex()}{Complex()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Complex\+::\+Complex (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Copy constructor for the \mbox{\hyperlink{classComplex}{Complex}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Another \mbox{\hyperlink{classComplex}{Complex}} object to copy from. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classComplex_a1e6de4ccbe08a7ebaa83029240ac4846}\label{classComplex_a1e6de4ccbe08a7ebaa83029240ac4846}} 
+\index{Complex@{Complex}!add@{add}}
+\index{add@{add}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily float Complex\+::add (\begin{DoxyParamCaption}\item[{double}]{a,  }\item[{double}]{b }\end{DoxyParamCaption})}
+
+
+
+Adds two double values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First value. \\
+\hline
+{\em b} & Second value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sum of the two values as a float. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a2301b74b34aa4a61398b4b23056489ef}\label{classComplex_a2301b74b34aa4a61398b4b23056489ef}} 
+\index{Complex@{Complex}!add@{add}}
+\index{add@{add}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Complex\+::add (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b }\end{DoxyParamCaption})}
+
+
+
+Adds two integer values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & First value. \\
+\hline
+{\em b} & Second value. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sum of the two values as an integer. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a8e79bf20ecb69577920f2ce30dac8eda}\label{classComplex_a8e79bf20ecb69577920f2ce30dac8eda}} 
+\index{Complex@{Complex}!GetImag@{GetImag}}
+\index{GetImag@{GetImag}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{GetImag()}{GetImag()}}
+{\footnotesize\ttfamily double Complex\+::\+Get\+Imag (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the imaginary part of the complex number. 
+
+\begin{DoxyReturn}{Returns}
+Imaginary part of the complex number. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_aa70ccdfcc41127542db840e454b9310e}\label{classComplex_aa70ccdfcc41127542db840e454b9310e}} 
+\index{Complex@{Complex}!GetReal@{GetReal}}
+\index{GetReal@{GetReal}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{GetReal()}{GetReal()}}
+{\footnotesize\ttfamily double Complex\+::\+Get\+Real (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the real part of the complex number. 
+
+\begin{DoxyReturn}{Returns}
+Real part of the complex number. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_aa9b4a7d6083ca7040ddd4fe93db5c19d}\label{classComplex_aa9b4a7d6083ca7040ddd4fe93db5c19d}} 
+\index{Complex@{Complex}!operator$\ast$@{operator$\ast$}}
+\index{operator$\ast$@{operator$\ast$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$\ast$()}{operator*()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classComplex}{Complex}} Complex\+::operator$\ast$ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Overloads the multiplication operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Another \mbox{\hyperlink{classComplex}{Complex}} object to multiply. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Product of the two complex numbers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a8656b8064c11c0b52226254d4debda07}\label{classComplex_a8656b8064c11c0b52226254d4debda07}} 
+\index{Complex@{Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classComplex}{Complex}} Complex\+::operator+ (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Unary plus operator overload. 
+
+\begin{DoxyReturn}{Returns}
+The same \mbox{\hyperlink{classComplex}{Complex}} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a820afcbb330df716577459d7a3aa3a1c}\label{classComplex_a820afcbb330df716577459d7a3aa3a1c}} 
+\index{Complex@{Complex}!operator+@{operator+}}
+\index{operator+@{operator+}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classComplex}{Complex}} Complex\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Overloads the addition operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Another \mbox{\hyperlink{classComplex}{Complex}} object to add. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sum of the two complex numbers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a36739619a07b5478bcd8a28ad2f8b7da}\label{classComplex_a36739619a07b5478bcd8a28ad2f8b7da}} 
+\index{Complex@{Complex}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classComplex}{Complex}} Complex\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Overloads the subtraction operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Another \mbox{\hyperlink{classComplex}{Complex}} object to subtract. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Difference of the two complex numbers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_ac38437c10eb798f176c384a695171b90}\label{classComplex_ac38437c10eb798f176c384a695171b90}} 
+\index{Complex@{Complex}!operator/@{operator/}}
+\index{operator/@{operator/}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator/()}{operator/()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classComplex}{Complex}} Complex\+::operator/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Overloads the division operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Another \mbox{\hyperlink{classComplex}{Complex}} object to divide by. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Quotient of the two complex numbers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a3c57cf8e8be7a9314a20cb3d770f71cf}\label{classComplex_a3c57cf8e8be7a9314a20cb3d770f71cf}} 
+\index{Complex@{Complex}!operator=@{operator=}}
+\index{operator=@{operator=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classComplex}{Complex}} \& Complex\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{other }\end{DoxyParamCaption})}
+
+
+
+Overloads the assignment operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & Another \mbox{\hyperlink{classComplex}{Complex}} object to assign from. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the assigned \mbox{\hyperlink{classComplex}{Complex}} object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a66f357d5690a2176d6d9af0522fbd062}\label{classComplex_a66f357d5690a2176d6d9af0522fbd062}} 
+\index{Complex@{Complex}!SetImag@{SetImag}}
+\index{SetImag@{SetImag}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{SetImag()}{SetImag()}}
+{\footnotesize\ttfamily void Complex\+::\+Set\+Imag (\begin{DoxyParamCaption}\item[{double}]{im }\end{DoxyParamCaption})}
+
+
+
+Sets the imaginary part of the complex number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em im} & Imaginary part to set. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classComplex_a22f33af69b8d3d5085df5876edbc1a60}\label{classComplex_a22f33af69b8d3d5085df5876edbc1a60}} 
+\index{Complex@{Complex}!SetReal@{SetReal}}
+\index{SetReal@{SetReal}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{SetReal()}{SetReal()}}
+{\footnotesize\ttfamily void Complex\+::\+Set\+Real (\begin{DoxyParamCaption}\item[{double}]{re }\end{DoxyParamCaption})}
+
+
+
+Sets the real part of the complex number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em re} & Real part to set. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{classComplex_a26a80299285b0a09474fe6a7263d648e}\label{classComplex_a26a80299285b0a09474fe6a7263d648e}} 
+\index{Complex@{Complex}!operator"!=@{operator"!=}}
+\index{operator"!=@{operator"!=}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator"!=}{operator!=}}
+{\footnotesize\ttfamily int operator!= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{lhs,  }\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overloads the inequality operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lhs} & Left-\/hand side \mbox{\hyperlink{classComplex}{Complex}} object. \\
+\hline
+{\em rhs} & Right-\/hand side \mbox{\hyperlink{classComplex}{Complex}} object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if the two complex numbers are not equal, 0 otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a940798a40478e522f3b6bc46860792c7}\label{classComplex_a940798a40478e522f3b6bc46860792c7}} 
+\index{Complex@{Complex}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{c }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overloads the insertion operator for output streams. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & Output stream. \\
+\hline
+{\em c} & \mbox{\hyperlink{classComplex}{Complex}} object to insert into the stream. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the output stream. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classComplex_a134348d6add271f1764fa17f5334056b}\label{classComplex_a134348d6add271f1764fa17f5334056b}} 
+\index{Complex@{Complex}!operator==@{operator==}}
+\index{operator==@{operator==}!Complex@{Complex}}
+\doxysubsubsection{\texorpdfstring{operator==}{operator==}}
+{\footnotesize\ttfamily int operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{lhs,  }\item[{const \mbox{\hyperlink{classComplex}{Complex}} \&}]{rhs }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Overloads the equality operator for complex numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lhs} & Left-\/hand side \mbox{\hyperlink{classComplex}{Complex}} object. \\
+\hline
+{\em rhs} & Right-\/hand side \mbox{\hyperlink{classComplex}{Complex}} object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if the two complex numbers are equal, 0 otherwise. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Complex.\+h\item 
+src/Complex.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classVehicle.html" title="Represents a generic vehicle with basic attributes and methods." alt="" coords="5,31,75,57"/>
+<area shape="rect" id="node2" href="$classAirVehicle.html" title="Represents an air vehicle, derived from the Vehicle class." alt="" coords="123,5,209,32"/>
+<area shape="rect" id="node3" href="$classCar.html" title="Represents a car, derived from the Vehicle class." alt="" coords="144,56,188,83"/>
+</map>
